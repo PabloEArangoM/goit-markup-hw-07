@@ -512,17 +512,17 @@ footer {
 }
 
 /* section section-informacion */
-.lista-section {
+.section__ul--informacion {
   display: flex;
   gap: 30px;
 }
-.material {
+.section__li--material {
   flex-basis: calc((100% - 90px) / 4);
 }
-.section-informacion {
+.section--informacion {
   padding-top: 94px;
 }
-.titulo-section {
+.section__h3--titulo {
   padding-bottom: 10px;
   font-size: 14px;
 }
@@ -533,7 +533,7 @@ footer {
   width: 70px;
   height: 70px;
 }
-.bgsvg {
+.div__svg--bg {
   display: flex;
   align-items: center;
   justify-content: center;
