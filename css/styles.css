@@ -475,7 +475,7 @@ footer {
 
 
 /* section solicite-nuestro-servicio */
-.boton {
+.button--servicio {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: "Roboto", sans-serif;
@@ -492,7 +492,7 @@ footer {
   padding-right: 24px;
   z-index: 5;
 }
-.solicite-nuestro-servicio {
+.section--servicio {
   background-color: var(--footer-background);
   padding: 200px 0px;
   text-align: center;
@@ -502,7 +502,7 @@ footer {
   background-size: cover;
   z-index: 5;
 }
-.soluciones-efectivas-para-su-negocio {
+.h1--servicio {
   max-width: 696px;
   padding-top: 0;
   padding-bottom: 30px;
