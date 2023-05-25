@@ -93,31 +93,31 @@ h3 {
 }
 
 /* HEADER */
-.nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
-.header-lista-links {
+.header__ul--links {
   display: flex;
   align-items: center;
   padding-left: 93px;
 }
-.header-links {
+.header__li--links {
   padding-left: 50px;
 }
 .header {
   width: auto;
   border-bottom: 1px solid #ececec;
 }
-.header-lista-contactos {
+.header__ul--contactos {
   display: flex;
   margin-left: auto;
 }
-.header-contactos {
+.header__li--contactos {
   padding-left: 50px;
   align-items: center;
 }
-.correo-header {
+.header__link--correo {
   color: #757575;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
@@ -128,7 +128,7 @@ h3 {
   vertical-align: top;
   letter-spacing: 0.02em;
 }
-.numero-telefonico-header {
+.header__link--numero-telefonico {
   color: var(--primery-text-color);
   font-weight: 500;
 }
@@ -140,7 +140,7 @@ h3 {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
 }
-.numero-telefonico-header {
+.header__link--numero-telefonico {
   font-family: "Roboto", sans-serif;
   font-style: medium;
   font-size: 14px;
@@ -149,27 +149,27 @@ h3 {
   vertical-align: top;
   letter-spacing: 0.02em;
 }
-.correo-header,
-.numero-telefonico-header {
+.header__link--correo,
+.header__link--numero-telefonico {
   display: block;
   padding: 32px 0px;
   display: inline-flex;
 }
-.telefono {
+.header__svg--telefono {
   height: 16px;
   width: 10px;
   margin-right: 10px;
 }
-.correo {
+.header__svg--correo {
   height: 16px;
   width: 16px;
   margin-right: 10px;
 }
-.correo,
-.telefono {
+.header__svg--correo,
+.header__svg--telefono {
   fill: currentColor;
 }
-.links {
+.header--links {
   font-family: "Roboto", sans-serif;
   font-style: black;
   font-weight: 700;
@@ -183,10 +183,10 @@ h3 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.correo:hover,
-.correo:focus,
-.telefono:hover,
-.telefono:focus {
+.header__svg--correo:hover,
+.header__svg--correo:focus,
+.header__svg--telefono:hover,
+.header__svg--telefono:focus {
   fill: var(--accent-color);
 }
 
