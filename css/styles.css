@@ -544,14 +544,14 @@ footer {
 }
 
 /* section a-que-nos-dedicamos */
-.a-que-nos-dedicamos {
+.section--a-que-nos-dedicamos {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.titulo-imagenes {
+.h2--imagenes {
   padding-bottom: 50px;
 }
-.lista-imagenes {
+.ul--imagenes {
   display: flex;
   flex-wrap: wrap;
   gap: 23px;
@@ -560,7 +560,7 @@ footer {
   flex-basis: calc((100% - 46px) / 3);
   position: relative;
 }
-.desc-img {
+.img__p--descripcion {
   position: absolute;
   width: 370px;
   background-color: rgba(47, 48, 58, 0.8);
