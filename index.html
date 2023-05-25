@@ -55,60 +55,60 @@
     <main>
       <section class="backdrop is-hidden" data-backdrop>
         <div class="modal">
-          <button type="button" class="boton-modal" data-modal-close>
-          <svg viewbox="" class="svg-cerrar">
+          <button type="button" class="boton__modal--cerrar" data-modal-close>
+          <svg viewbox="" class="modal__svg--cerrar">
             <use href="./images/SVG/sprite.svg#cerrar"></use>
           </svg>
         </button>
-        <p class="titulo-backdrop">Deje sus datos, nos contactaremos con usted</p>
-        <form action="" class="modal-form" data-modal autocomplete="off">
-          <div class="div-backdrop">
+        <p class="modal--titulo">Deje sus datos, nos contactaremos con usted</p>
+        <form action="" class="modal__form" data-modal autocomplete="off">
+          <div class="form__div">
               <label for="Nombre" class="label">
                 Nombre
               </label>
-              <div class="div-svg">
+              <div class="form__svg">
                 <input type="text" name="Nombre" id="Nombre" class="input" required/>
-                <svg class="svg-modal">
+                <svg class="input__svg">
                   <use href="./images/SVG/sprite.svg#nombre"></use>
                 </svg>
               </div>
             </div>
-            <div class="div-backdrop">
+            <div class="form__div">
               <label for="Telefono" class="label">
                 Telefono
               </label>
-              <div class="div-svg">
+              <div class="form__svg">
                 <input type="tel" name="Telefono" id="Telefono" class="input" required/>
-                <svg class="svg-modal">
+                <svg class="input__svg">
                   <use href="./images/SVG/sprite.svg#backdrop-telefono"></use>
                 </svg>
             </div>
             </div>
-            <div class="div-backdrop">
+            <div class="form__div">
               <label for="correo" class="label">
                 Correo  
               </label>
-              <div class="div-svg">
+              <div class="form__svg">
                 <input type="text" name="correo" id="correo" class="input" required/>
-                <svg class="svg-modal">
+                <svg class="input__svg">
                   <use href="./images/SVG/sprite.svg#backdrop-correo"></use>
                 </svg>
             </div>
             </div>
-            <div class="div-backdrop-comentarios">
+            <div class="form__div-comentarios">
               <label for="Comentarios" class="label">
                 Comentarios 
               </label>
-              <div class="div-svg">
+              <div class="form__svg">
                 <textarea name="Comentarios" id="Comentarios" class="textarea" placeholder="Introduzca el texto"></textarea>
               </div>
             </div>
-            <div class="div-checkbox">
-            <label for="terminos" class="terminos-label">
-              <input type="checkbox" name="terminos" id="terminos" class="checkbox" required>
+            <div class="form__div--checkbox">
+            <label for="terminos" class="label--terminos">
+              <input type="checkbox" name="terminos" id="terminos" class="input--checkbox" required>
               <span>Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</span></label>
             </div>
-            <button type="submit" class="boton-enviar">Enviar</button>
+            <button type="submit" class="form__button--enviar">Enviar</button>
             </form>
         </div>
       </section>

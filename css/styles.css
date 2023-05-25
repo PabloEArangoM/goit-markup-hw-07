@@ -339,7 +339,7 @@ footer {
   pointer-events: none;
   transform: scale(0%);
 }
-.modal-form {
+.modal__form {
   background-color: var(--primary-white-color);
   opacity: 0;
   display: block;
@@ -359,14 +359,14 @@ footer {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.modal-form.is-hidden {
+.modal__form.is-hidden {
   opacity: 1;
 }
-.div-backdrop{
+.form__div{
   line-height: 1.15;
   margin-bottom: 10px;
 }
-.titulo-backdrop{
+.modal--titulo{
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -393,7 +393,7 @@ footer {
   border-radius: 4px;
   transition: border-color var(--cubic) var(--time);
 }
-.svg-modal{
+.input__svg{
   position: absolute;
   top: 50%;
   left: 12px;
@@ -401,16 +401,16 @@ footer {
   width: 18px;
   height: 18px;
 }
-.div-svg{
+.form__svg{
   position: relative;
 }
-.div-svg:hover{
+.form__svg:hover{
   fill: var(--accent-color);
 }
-.input:focus + .svg-modal {
+.input:focus + .input__svg {
   fill: var(--accent-color);
 }
-.boton-modal{
+.boton__modal--cerrar{
   position: absolute;
   display: flex;
   top: 8px;
@@ -426,14 +426,14 @@ footer {
   border-radius: 50%;
   cursor: pointer;
 }
-.svg-cerrar {
+.modal__svg--cerrar {
   height: 15px;
   width: 15px;
   margin: 0;
   padding: 0;
   display: block;
 }
-.div-backdrop-comentarios{
+.form__div-comentarios{
   margin-bottom: 20px;
 }
 .textarea{
@@ -446,19 +446,19 @@ footer {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.div-checkbox{
+.form__div--checkbox{
   margin-bottom: 5px;
 }
-.terminos-label{
+.label--terminos{
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-p-color);
 }
-.checkbox{
+.input--checkbox{
   margin-right: 8.38px;
 }
-.boton-enviar{
+.form__button--enviar{
   display: flex;
   padding: 10px 75px;
   margin: 0 auto;
