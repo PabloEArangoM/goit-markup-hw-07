@@ -636,11 +636,11 @@ footer {
 }
 
 /* section clientes */
-.lista-empresas {
+.ul--empresas {
   display: flex;
   gap: 30px;
 }
-.empresa {
+.link--empresa {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -660,11 +660,11 @@ footer {
   height: 60px;
   width: 106px;
 }
-.clientes {
+.section--clientes {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clientes-regulares {
+.h2--clientes-regulares {
   padding-bottom: 50px;
 }
 
