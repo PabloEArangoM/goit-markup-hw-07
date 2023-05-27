@@ -2,6 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 @import "./components/header";
 @import "./utils/variables";
+@import "./components/footer";
+@import "./components/section-backdrop";
+@import "./components/section-solicite-nuestro-servicio";
+@import "./components/section-informacio";
+@import "./components/section-a-que-nos-dedicamos";
+@import "./components/section-equipo";
+@import "./components/section-clientes.scss";
+@import "./components/main-portafolio";
 
 :root {
     --primery-text-color: #757575;
